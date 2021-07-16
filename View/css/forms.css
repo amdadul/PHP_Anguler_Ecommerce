@@ -1,0 +1,14 @@
+/* CSS Document */
+
+.error
+{
+	color:red;
+}
+
+.success
+{
+	color:green;
+	display:block;
+	padding:10px;
+	background-color:rgba(92,92,92,0.60);
+}

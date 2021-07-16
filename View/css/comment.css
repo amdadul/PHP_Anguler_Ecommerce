@@ -1,0 +1,161 @@
+/* CSS Document */
+.comments
+{
+	max-width:500px;
+	min-width:200px;
+	height:auto;
+	overflow:hidden;
+	background-color:rgba(252,251,251,1.00);
+	margin:2px;
+	
+}
+
+
+
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: #0088cc;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+  -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+  box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+}
+
+
+.rating {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.soldout{
+	background-color:#FFFFFF;
+	margin-top:-180px;
+}
+
+.rating-input {
+    float: right;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    margin: 0 0 0 -16px;
+    opacity: 0;
+}
+
+.checked{
+    display:none;
+}
+.active .checked {
+    display:inline-block;
+}
+.active .unchecked {
+    display:none;
+}
+
+.btn-group > .btn > .btn-primary > .glyphicon:hover{
+    color: orange;
+}
+
+.rating-star {
+    position: relative;
+    float: right;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url('https://www.everythingfrontend.com/samples/star-rating/star.png') 0 -16px;
+}
+
+.rating-star:hover,
+.rating-star:hover ~ .rating-star {
+    background-position: 0 0;
+}
+
+
+.commentform
+{
+	max-width:400px;
+	min-width:200px;
+	float:left;
+	height:auto;
+	margin:5px;
+	padding:1px;
+	position:relative;
+	overflow:hidden;
+}
+
+.comment
+{
+	width:auto;
+	height:auto;
+	margin:5px;
+	padding:1px;
+	background-color:rgba(222,141,248,1.00);
+	overflow:hidden;
+}
+
+.comment span
+{
+	background-color:rgba(5,70,201,0.83);
+	display:block;
+	color:rgba(248,247,247,1.00);
+}
+
+.comment b
+{
+	padding-left:10px;
+	
+}
+
+.comment p
+{
+	overflow:hidden;
+	padding-left:10px;
+}
+
+.pc
+{
+	float:left;
+	height:40px;
+	width:50px;
+	background-color:rgba(217,181,182,1.00);
+	padding:2px;
+	overflow:hidden;
+}
+
+.pc img
+{
+	height:40px;
+	width:50px;
+	overflow:hidden
+}
+
+.comments input
+{
+	display:inline
+}
+
+.viewMain
+{
+	width:400px;
+	height:auto;
+	background-color:rgba(27,150,251,1.00);
+	border:thick rgba(168,249,102,1.00) solid;
+	box-shadow:3px 4px rgba(253,236,76,1.00);
+	
+}
+.viewMain span
+{
+	
+	color:rgba(249,248,248,1.00);
+	font-size:18px;
+	text-justify:auto;
+}
+.print
+{
+	margin-left:550px;
+	overflow:hidden;
+	margin-top:30px;
+}
+/*#viewMain
+{
+	visibility:hidden;
+}

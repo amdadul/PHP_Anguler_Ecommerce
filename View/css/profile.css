@@ -1,0 +1,93 @@
+/* CSS Document */
+.pf
+{
+	float:left;
+	width:200px;
+	height:150px;	
+	background-color:rgba(245,183,65,0.94);
+	margin:2px;
+	overflow:hidden;
+	position:relative;
+}
+
+.pf:hover a
+{
+	position:absolute;
+	background-color:rgba(136,136,136,0.93);
+	color:rgba(253,247,247,1.00);
+	text-decoration:none;
+	left:0px;
+	right:0px;
+	bottom:70px;
+	transform:rotate(30deg);
+	transition:ease-in-out 1s;
+	font-size:24px;
+}
+
+.pf img
+{
+	
+	width:190px;
+	height:140px;
+	padding:5px;
+	
+	
+}
+.ps
+{
+	float:left;
+	margin:2px;
+	padding:10px;
+	display:block;
+	width:930px;
+	height:130px;
+	overflow:hidden;
+	background-color:rgba(251,233,158,1.00);
+	position:relative;
+}
+.ps span
+{
+	display:block;
+	background-color:rgba(239,150,251,0.93);
+	margin:2px;
+	font-size:26px;
+	margin-left:10px;
+}
+
+.ps a
+{
+	visibility:hidden;
+}
+.ps:hover a
+{
+	visibility:visible;
+	background-color:rgba(74,204,21,1.00);
+	transform:rotate(30deg);
+	transition:ease-in-out 1s;
+	position:absolute;
+	text-decoration:none;
+	left:750px;
+	right:50px;
+	bottom:70px;
+	font-size:24px;
+	color:rgba(249,248,248,1.00);
+}
+
+.ditails
+{
+	width:1150px;
+	height:auto;
+	background-color:rgba(248,202,69,0.95);
+	margin-top:10px;
+	overflow:hidden;
+	
+}
+
+.ditails span
+{
+	display:block;
+	font-size:20px;
+	margin:3px;
+	background-color:rgba(244,226,103,0.96);
+}
+

@@ -1,0 +1,17 @@
+<h3 align="center">Add New category</h3>  
+                <br />  
+  <div ng-init="loadCategory()">  
+                    <label>Name</label>  
+                     <input type="text" name="name" ng-model="name" class="form-control" />  
+                     <br />  
+                     <label>Description</label>  
+                     <input type="text" name="description" ng-model="description" class="form-control" />  
+                     <br />  
+                    <label>Category</label>  
+                     <select name="categoryId" ng-model="categoryId" class="form-control">  
+                          <option value="">Select Category</option>  
+                          <option ng-repeat="ct in category" value="{{ct.id}}">{{ct.name}}</option>  
+                     </select>  
+                      <br />  
+                     <input type="submit" name="btnInsert" class="btn btn-info" ng-click="insertData()" value="ADD"/> 
+    </div>
